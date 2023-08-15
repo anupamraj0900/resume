@@ -1,5 +1,5 @@
 #body{
-	margin: 0px;
+    margin: 0px;
     font-family: sans-serif;
 
 
@@ -9,41 +9,41 @@
 
 
 section{
-	width: 100;
-	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
+    width: 100;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 /*
 section:nth-child(2n){
-	background-color: #9e9b9b29;
+    background-color: #9e9b9b29;
 }
 section:nth-child(2n+1){
-	background-color: white;
+    background-color: white;
 }*/
 
 .section-heading{
-	width: auto;
-	padding: 20px 10px 10px;
-	margin: 10px auto;
-	font-weight: 400;
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
 }
 .section-heading span{
-	font-size: 40px;
-	color: #2857a4;
-	display: inline-block;
-	padding-top: 10px;
-	margin-right: 0.5rem;
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
 }
 #body-header{
-	 height: 70vh;
-	 opacity: 0.7;/*transparency */
-	 background-image: url(macbook_mouse.jpg);
-	 background-size: cover;/* pura cover karega */
-	 background-position: center;
-	 background-attachment: fixed;
+     height: 70vh;
+     opacity: 0.7;/*transparency */
+     background-image: url(macbook_mouse.jpg);
+     background-size: cover;/* pura cover karega */
+     background-position: center;
+     background-attachment: fixed;
 
 }
 .text-center {
@@ -51,52 +51,52 @@ section:nth-child(2n+1){
 }
 /* HORIZONTLA LIST*/
 .horizontallist{
-	list-style: none;
-	padding-left: 0px;
-	padding-top: 40px;
-	text-align: center;
-	margin: 0px;
-	word-spacing: 60px;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 40px;
+    text-align: center;
+    margin: 0px;
+    word-spacing: 60px;
 }
 .horizontallist li{/* saare iteams ko nested krdo*/
-	display: inline-block;
-	margin: 0px,10px,10px,0px;
+    display: inline-block;
+    margin: 0px,10px,10px,0px;
 }
 .horizontallist li a {
-	color: white;
-	text-decoration:none; /* isse underline chale jayenge*/
-	font-size: 25px;
-	transition: color 0.5s,border-bottom 4s;
-	
+    color: white;
+    text-decoration:none; /* isse underline chale jayenge*/
+    font-size: 25px;
+    transition: color 0.5s,border-bottom 4s;
+    
 }
 .horizontallist li a:hover{
-	color: lightgray;
-	border-bottom: 1px solid white;
+    color: lightgray;
+    border-bottom: 1px solid white;
 
 }
 /*NAME*/
 #name-social{
-	margin-top: 20vh;
+    margin-top: 20vh;
 }
 #name{
-	font-size: 3rem;
-	letter-spacing: 0.1rem;
-	color: white;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5rem;
 
 }
 .icons li a i{ /* isse social icons ko aur modify kr sakte hain*/
-	padding: 10px;
-	color: white;
-	border-radius:50%;/*isse circular ho jayenge */
+    padding: 10px;
+    color: white;
+    border-radius:50%;/*isse circular ho jayenge */
 
 
 }
 
 .icons li a i:hover{
-	box-shadow: 0px 0px 6px 4px grey;/*isse circular ho jayenge  offset kehte hain*/
+    box-shadow: 0px 0px 6px 4px grey;/*isse circular ho jayenge  offset kehte hain*/
 
 
 }
@@ -105,26 +105,26 @@ section:nth-child(2n+1){
 
 
 #about{
-	height: auto;
-	width: 100%;
-	position: relative;
+    height: auto;
+    width: 100%;
+    position: relative;
 }
 #image-my{
-	height: 14rem;
-	width: 14rem;
-	margin: auto;
-	margin-top: -15vh;
+    height: 14rem;
+    width: 14rem;
+    margin: auto;
+    margin-top: -15vh;
 
 
 }
 #image-my img{
-	height: 100%;
-	width: 100%;
-	border-radius: 70%;
-	box-shadow: 0px 0px 6px 4px lightgray;
+    height: 100%;
+    width: 100%;
+    border-radius: 70%;
+    box-shadow: 0px 0px 6px 4px lightgray;
 }
 #jk{
-	padding: 10px;
+    padding: 10px;
     width: 70%;
     height: 100%;
     margin: auto;
@@ -137,7 +137,7 @@ section:nth-child(2n+1){
 
 }
 .text-highlight{
-	color: #2857a4;
+    color: #2857a4;
 
 
 }
@@ -174,13 +174,13 @@ section:nth-child(2n+1){
 }
 
 .mb75px{
-	margin-bottom: 75px;
+    margin-bottom: 75px;
 }
 .mb-blue {
     background-color: #2857a4;
 }
 .mb-orange{
-	background-color: #ec4d1c;
+    background-color: #ec4d1c;
 }
 
 .mb-teal {
@@ -207,19 +207,19 @@ section:nth-child(2n+1){
     width: 95%;
 }
 .six-percent{
-	height: inherit;
+    height: inherit;
     width: 75%;
 
 }
 /* Portfolio Section */
 
 #portfolio-container {
-    box-sizing: border-box;
+  /*  box-sizing: border-box; */
     display: flex;
     flex-wrap: wrap;
     padding: 0 50px;
-    margin-bottom: 20px;
-    justify-content: space-around;
+
+    justify-content: space-between;
 }
 
 .portfolio-image-container {
@@ -316,6 +316,10 @@ section:nth-child(2n+1){
     vertical-align: bottom;
     margin-right: 0.5rem;
 }
+
+#prot_l{
+        text-align: center;
+    }
 
 
 #contact-form input,
@@ -482,14 +486,12 @@ button:focus {
         left: 10% !important;
     }
 
-    .horizontallist{
-        display: block;
-    }
+   
 
-    .horizontallist{
-        display: none;
+   
+    .body-header{
+        width: 100%;
     }
-    
     
     
 }
@@ -497,6 +499,8 @@ button:focus {
 
 
 @media only screen and (max-width: 768px) {
+
+
 
 
     .timeline-box {
@@ -522,14 +526,21 @@ button:focus {
     }
 
     #my-details-container {
-        width: 80%;
-        margin: 10%;
+        width: 100%;
+
+        
     }
 
     #contact-form-container {
         width: 80%;
         margin: 10%;
     }
+    #prot_l{
+        padding-left: 30px;
+    }
+    #contact-container{
+        height: 100%;
+    }
+    
 
 }
-
